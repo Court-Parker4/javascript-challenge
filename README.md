@@ -1,7 +1,7 @@
 # Javascript-Challenge
 JavaScript Homework - JavaScript and DOM Manipulation
 --------------------------------
-##Task
+## Task
 Write JavaScript code to create a table dynamically based on the data.js file.
 This should allow users to filter the data for specific values.
 - Can only use pure JavaScript. HTML, and CSS, and D3.js.
