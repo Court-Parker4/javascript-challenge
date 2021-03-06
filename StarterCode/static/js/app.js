@@ -8,6 +8,7 @@ var tbody=d3.select('#ufo-table').select('tbody');
 for (var i=0; i<tableData.length; i++){
     var curr_row=tableData[i];
     var row=tbody.append('tr')
+    //Alternative method
     // var value=row.append('td')
     // value.text(curr_row['datetime']);
     // value=row.append('td')
@@ -32,6 +33,7 @@ function handleClick(){
     tbody.html('');
     var filter_input=d3.select('#datetime').property('value');
     console.log(filter_input)
+    //Alternative method
     // console.log(filter_input.property('value'));
     // var filter_table=tableData.filter(element => function plot(element) {
     //     element['datetime']==filter_input;
